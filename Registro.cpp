@@ -1,4 +1,4 @@
-#include "Bitacora.hpp"
+#include "Registro.hpp"
 
 
 ostream & operator<<(ostream & os, const Bitacora & bitacora)
