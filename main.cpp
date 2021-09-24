@@ -63,7 +63,7 @@ int main()
 
         //copy(Registros.begin(), Registros.end(), ostream_iterator<Registro>(cout));
 
-        //cout << Registros.size();
+        cout << Registros.size() << endl;
 
 
     return 0;
