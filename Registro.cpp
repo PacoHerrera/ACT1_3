@@ -7,4 +7,4 @@ string Registro::originPort(){return OP;}
 string Registro::originName(){return ON;}
 string Registro::destinationPort(){return DP;}
 string Registro::destinationIp(){return IP_D;}
-string Registro::destinationName(){return DP;}
+string Registro::destinationName(){return DN;}
