@@ -31,12 +31,6 @@ class Registro{
         string destinationIp();
         string destinationName();
 
-
-        bool comparaDia(Registro); //¿Cuántos récords hay del segundo día registrado? ¿Qué día es este?
-        bool comparaNombre(Registro); //¿Alguna de las computadoras pertenece a Jeffrey, Betty, Katherine, Scott, Benjamin, Samuel o Raymond? 
-        bool comparaComputador(Registro); // ¿Alguna computadora se llama server.reto.com? 
-        bool comparaPuerto(Registro); //Considerando solamente los puertos destino ¿Qué puertos abajo del 1000 se están usando? 
-
 };
 
 #endif
