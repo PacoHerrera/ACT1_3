@@ -5,14 +5,14 @@
 #include <string>
 #include <iterator>
 
-#include "person.cpp"
+#include "Registro.cpp"
 
 using namespace std;
 
 auto readCSV(string filename)
 {       
-        //Create a Persona vector
-    vector<Persona> lines;
+        //Create a Registro vector
+    vector<Registro> lines;
 
         //Read the csv file
     ifstream file(filename);
@@ -44,10 +44,10 @@ auto readCSV(string filename)
         getline(ss, ON, ',');
         getline(ss, IP_D, ',');
         getline(ss, DP, ',');
-        getline(ss, DN;
+        getline(ss, DN);
 
-        Persona pers = Persona(date, hour, oIP, oPort, oName, dIP, dPort, dName);
-        lines.push_back(pers);
+        Registro reg = Registro(date, time, IP_O, OP, ON, IP_O, DP, DN);
+        lines.push_back(reg);
     }
 
     file.close();
@@ -57,13 +57,13 @@ auto readCSV(string filename)
 
 int main()
 {   
-    vector <Persona> personas = readCSV("equipo14.csv");
+    vector <Registro> Registros = readCSV("equipo14.csv");
 
     //Imprimir el vector
 
-        //copy(personas.begin(), personas.end(), ostream_iterator<Persona>(cout));
+        //copy(Registros.begin(), Registros.end(), ostream_iterator<Registro>(cout));
 
-        //cout << personas.size();
+        //cout << Registros.size();
 
 
     return 0;
