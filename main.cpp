@@ -63,7 +63,7 @@ int main()
 
     //copy(Registros.begin(), Registros.end(), ostream_iterator<Registro>(cout));
 
-    cout << Registros.size() << endl;
+    cout << "Total de registros: " << Registros.size() << endl;
     string argbusqueda;
     bool wee = false;
     cout << "Qué nombre desea buscar?: " << endl;
@@ -82,9 +82,16 @@ int main()
         cout << "No se encontro en el registro." << endl;
     }
 
+    cout << "Dominios de correo electronico: " << endl;
     for (int i = 0; i <= 50; i++)
     {
         cout << Registros[i].destinationName() << endl;
+    }
+
+    cout << "Red interna de compañia: " << endl;
+    for (int i = 0; i <= 50; i++)
+    {
+        cout << Registros[i].destinationPort() << endl;
     }
 
     cout << "Ports under 1000: " << endl;
