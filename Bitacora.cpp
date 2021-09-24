@@ -3,12 +3,12 @@ using namespace std;
 
 class Bitacora{
     private:
-        int date;
-        int time;
-        int IP_O;
-        int PO;
+        string date;
+        string time;
+        string IP_O;
+        string PO;
         string ON;
-        int IP_D;
-        int DP;
+        string IP_D;
+        string DP;
         string DN;
 };
