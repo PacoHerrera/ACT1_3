@@ -19,16 +19,17 @@ class Registro{
     public:
         Registro(){}
         Registro(string _date, string _time, string _IP_O, string _OP, string _ON, string _DP, 
-        string _IP_D, string _DN): date(_date), time(_time), IP_O(IP_O), OP(_OP), ON(_ON), 
+        string _IP_D, string _DN): date(_date), time(_time), IP_O(_IP_O), OP(_OP), ON(_ON), 
         IP_D(_IP_D), DP(_DP), DN(_DN){}
 
-        auto Date(){return date;}
-        auto time(){return time;}
-        auto IP_O(){return IP_O;}
-        auto OP(){return OP;}
-        auto ON(){return ON;}
-        auto DestinationPort(){return IP_O;}
-        auto IP_O(){return IP_O;}
+        string Date();
+        string Time();
+        string originIp();
+        string originPort();
+        string originName();
+        string destinationPort();
+        string destinationIp();
+        string destinationName();
 
 
         bool comparaDia(Registro); //¿Cuántos récords hay del segundo día registrado? ¿Qué día es este?
