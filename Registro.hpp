@@ -1,11 +1,12 @@
-#ifndef Registro_hpp
-#define Registro_hpp
+#ifndef registro_hpp
+#define registro_hpp
 
 #include <iostream>
 using namespace std;
 
 class Registro{
-    private:
+    protected:
+    //Fecha, Hora, IP Origen, Puerto Origen, Nombre Origen, IP Destino, Puerto Destino, Nombre Destino
         string date;
         string time;
         string IP_O;
