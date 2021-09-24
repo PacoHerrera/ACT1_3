@@ -2,7 +2,7 @@
 using namespace std;
 
 class Bitacora{
-    private:
+    protected:
         string date;
         string time;
         string IP_O;
