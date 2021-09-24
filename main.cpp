@@ -57,7 +57,7 @@ auto readCSV(string filename)
 
 int main()
 {   
-    vector <Registro> Registros = readCSV("equipo14.csv");
+    vector <Registro> Registros = readCSV("equipo15.csv");
 
     //Imprimir el vector
 
