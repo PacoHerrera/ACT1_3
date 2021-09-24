@@ -6,14 +6,14 @@ class Bitacora{
         string date;
         string time;
         string IP_O;
-        string PO;
+        string OP;
         string ON;
         string IP_D;
         string DP;
         string DN;
     public:
-        Persona(){}
-        Persona(string _date, string _hour, string _originIP, string _originPort, string _originName, string _destinatioPort, 
-        string _destinationIP, string _dName): date(_date), hour(_hour), originIP(_originIP), originPort(_originPort), originName(_originName), 
-        destinationIP(_destinationIP), destinationPort(_destinatioPort), destinationName(_dName){}
+        Bitacora(){}
+        Bitacora(string _date, string _time, string _IP_O, string _OP, string _ON, string _DP, 
+        string _IP_D, string _DN): date(_date), time(_time), IP_O(IP_O), OP(_OP), ON(_ON), 
+        IP_D(_IP_D), DP(_DP), DN(_DN){}
 };
