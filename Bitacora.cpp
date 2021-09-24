@@ -1,15 +1,15 @@
-#include "Bitacora.hpp"
+#include "Registro.hpp"
 
 
-ostream & operator<<(ostream & os, const Bitacora & bitacora)
+ostream & operator<<(ostream & os, const Registro & registro)
 {
-    os << bitacora.date << " - ";
-    os << bitacora.time << " - ";
-    os << bitacora.IP_O << " - ";
-    os << bitacora.OP << " - ";
-    os << bitacora.ON << " - ";
-    os << bitacora.DP << " - ";
-    os << bitacora.IP_D << " - ";
+    os << registro.date << " - ";
+    os << registro.time << " - ";
+    os << registro.IP_O << " - ";
+    os << registro.OP << " - ";
+    os << registro.ON << " - ";
+    os << registro.DP << " - ";
+    os << registro.IP_D << " - ";
 
     return os;
 }
